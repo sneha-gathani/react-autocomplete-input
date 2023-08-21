@@ -61,7 +61,7 @@ const defaultProps = {
   onSelect: () => {},
   changeOnSelect: (trigger, slug) => trigger + slug,
   options: [],
-  regex: '^[A-Za-z0-9\\-_]+$',
+  regex: '^[A-Za-z0-9()\\-_]+$',
   matchAny: false,
   minChars: 0,
   requestOnlyIfNoOptions: true,
